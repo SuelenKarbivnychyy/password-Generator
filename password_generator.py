@@ -31,35 +31,3 @@ final_password = ""
 for item in password_list:
     final_password += item
 print(f"Randomly order password: {final_password}")
-
-
-
-
-
-
-# password = ""
-# for number in range(1, nr_letters + 1):
-#   letters_choose = random.choice(letters)
-#   password += letters_choose
-# for symbol in range(1, nr_symbols + 1):
-#   symbols_choose = random.choice(symbols)
-#   password += symbols_choose   
-# for number in range(1, nr_numbers + 1):
-#   numbers_choose = random.choice(numbers)
-#   password += numbers_choose
-# # print(f"Original Password: {password}")  
-
-# final_password = ""
-# password_lenght = len(password)
-# # print(f"lenght is : {password_lenght}")
-
-# for char in range(1, password_lenght + 1):  
-#   if password != "":    
-#     # print(f"The original password now looks like {password}")
-#     char_chose = random.choice(password)
-#     final_password += char_chose
-#     # print(f"This character will be replaced: {char_chose}\n")
-#     password = password.replace(char_chose, "", 1)
-
-# print(f"Randomly order password: {final_password}")
-# # print(f"The final password lenght is {len(final_password)}")
